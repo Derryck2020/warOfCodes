@@ -12,9 +12,9 @@ tvShows.forEach(show => console.log(show));
 
 //Answer
 let numbers = [2, 4, 6, 8, 10]
-numbers.forEach(function(element,index,array){
-    array[index] = element*element;
-});
+numbers.forEach((ele,index,array) => 
+    array[index] = ele*ele;
+);
 console.log(numbers)
 
 
