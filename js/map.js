@@ -5,8 +5,8 @@
 */
 
 //Answer
-function maps(x){
-    return x.map(el => el * 2);
+function maps(arr){
+    return arr.map(el => el * 2);
 }
 
 //Alternative Answer
