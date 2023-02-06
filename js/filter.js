@@ -9,7 +9,7 @@ Some cases:
 
 //Answer
 function multipleOfIndex(array) {
-    return array.filter((num, i) => num % i === 0);
+    return array.filter((ele, i) => ele % i === 0);
 }
 
 //Alternative Answer
